@@ -6,6 +6,6 @@ export const initAMapApiLoader = (config) => {
   // if (lazyAMapApiLoaderInstance) throw new Error('You has already initial your lazyAMapApiLoaderInstance, just import it');
   if (lazyAMapApiLoaderInstance) return;
   if (!lazyAMapApiLoaderInstance) lazyAMapApiLoaderInstance = new AMapAPILoader(config);
-  lazyAMapApiLoaderInstance.load();
+  // lazyAMapApiLoaderInstance.load();
 };
 export { lazyAMapApiLoaderInstance };
